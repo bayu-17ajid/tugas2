@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:id="@+id/beranda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ARTIKEL : "
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Takae Esports Gaspol di PMPL ID Season 3! Akuisisi Slot dan Rekrut Player Top.
+Takae Esports benar-benar agresif menjelang ajang PMPL ID Season 3 nanti. Tim berlogo banteng ini merekrut beberapa pemain top dan mengakuisisi slot.
+Takae sebelumnya berjuang di PMCO Spring Split, tapi gagal menembus empat besar. Mereka sebenarnya nyaris lolos, hanya bermain buruk di beberapa match terakhir.
+Gagal tak membuat Takae lantas menyerah. Mereka kemudian mengakuisisi slot The Pillars di PMPL ID Season 3, alis menggunakan jalan pintas.
+Kabar ini saja sudah mengejutkan, lalu Selasa (2/3) kemarin, Takae juga mengumumkan perekrutan dua player baru yang diyakini bisa meningkatkan kekuatan mereka: Argenta dan Bangkhuz."/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="289dp"
+            android:src="@drawable/tak" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kembali"
+            android:onClick="kembali"/>
+
+    </LinearLayout>
+
+</LinearLayout>
